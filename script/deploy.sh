@@ -29,4 +29,4 @@ echo "Building the project..."
 
 # Step 6: Run the application in the background using 'java -jar' and 'nohup'
 echo "Starting the application..."
-sudo nohup java -jar build/libs/jwp-shopping-order.jar --spring.profiles.active=prod &
+sudo java -jar build/libs/jwp-shopping-order.jar --spring.profiles.active=prod &
