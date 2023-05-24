@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEPLOY_BRANCH="step1-practice"
-PORT=80
+PORT=8080
 
 # Step 1: Check if port 8080 is running and kill the process if it is
 if lsof -i :${PORT}; then
