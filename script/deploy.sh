@@ -1,11 +1,11 @@
 #!/bin/bash
 
 DEPLOY_BRANCH="step1-practice"
-PORT=8080
+PORT=80
 
-# Step 1: Check if port 8080 is running and kill the process if it is
+# Step 1: Check if port 80 is running and kill the process if it is
 if lsof -i :${PORT}; then
-    echo "Port 8080 is already in use. Killing the process..."
+    echo "Port ${PORT} is already in use. Killing the process..."
     lsof -i :${PORT} | awk 'NR!=1 {print $2}' | xargs kill -9
 fi
 
