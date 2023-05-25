@@ -20,7 +20,7 @@ cd jwp-shopping-order
 echo "Checking out 'step1' branch..."
 git checkout ${DEPLOY_BRANCH}
 
-# Step 4: Pull the latest changes from the 'step1' branch
+# Step 4: Pull the latest changes from the 's1tep1' branch
 echo "Pulling the latest changes from 'step1' branch..."
 git pull origin ${DEPLOY_BRANCH}
 
